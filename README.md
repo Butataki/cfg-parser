@@ -5,15 +5,15 @@
 Parsing config files with predetermined structure and generating default one if no config file found.
 
 Structure is as follows:
-    * All sections are lowercase without whitespaces
-    * All fields are camel case and leading character represent type field contains
+* All sections are lowercase without whitespaces
+* All fields are camel case and leading character represent type field contains
 
 Available types are:
-    * i - integer, i.e. iInterval=30
-    * f - float, i.e. fPrice=45.67
-    * b - boolean, i.e. bEnableSpoofing=1
-    * s - string, i.e. sEntryPointClass=MainMethanina
-    * l - list, i.e. lProxyList=127.0.0.1:3456,127.0.0.1:2333,127.0.0.1:4565
+* i - integer, i.e. iInterval=30
+* f - float, i.e. fPrice=45.67
+* b - boolean, i.e. bEnableSpoofing=1
+* s - string, i.e. sEntryPointClass=MainMethanina
+* l - list, i.e. lProxyList=127.0.0.1:3456,127.0.0.1:2333,127.0.0.1:4565
 
 ## Installation
 
