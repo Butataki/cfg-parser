@@ -39,6 +39,12 @@ Install Simple Daemon package that you build by easy_install:
 ## Example
 
 ```python
+
+    import os
+    from cfg_parser import Configuration
+    
+    ROOT = os.path.dirname(os.path.realpath(__file__))
+
     template_example = '''
     [section_one]
     iInterval=30
