@@ -8,7 +8,7 @@ generating default one if no config file found.
     :synopsis: Configuration parser class. Parsing config files with predetermined structure and
                generating default one if no config file found.
 
-.. moduleauthor:: Roman Shuvalov <rshuvalov@abtronics.ru>
+.. moduleauthor:: Roman Shuvalov <orangato@yandex.ru>
 """
 import os
 import sys
@@ -106,7 +106,7 @@ class Configuration(object):
         :raise: :exp:`IOError`
         """
         # make empty template or read from template file
-        if self._config_file is None:
+        if self._template_file is None:
             template = ''
         else:
             with open(self._template_file, 'r') as f:
