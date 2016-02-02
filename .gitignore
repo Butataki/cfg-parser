@@ -118,4 +118,8 @@ docs/_build/
 # PyBuilder
 target/
 
+# Configuration files
+*.cfg
+*.conf
+*.txt
 
